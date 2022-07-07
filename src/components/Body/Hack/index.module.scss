@@ -1,0 +1,90 @@
+.main {
+    min-height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: normal;
+    justify-content: center;
+    background-color: #111111;
+}
+.main_content {
+    width: 1200px;
+    display: block;
+}
+.sectionArrow_area {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.section_title {
+    display: block;
+    .first_title {
+        font-size: 43px;
+        letter-spacing: -2px;
+        color: #ff5c4e;
+        font-weight: 700;
+        text-align: center;
+    }
+    .second_title {
+        font-size: 60px;
+        letter-spacing: 0px;
+        color: #ffffff;
+        font-weight: 700;
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+}
+
+.section_content {
+    display: flex;
+
+    .left_section {
+        padding: 15px;
+        width: 50%;
+        .left_para {
+            font-size: 18px;
+            line-height: 22px;
+            color: #737373;
+            font-weight: 400;
+            font-family: "Poppins";
+            margin-bottom: 50px;
+        }
+    }
+    .right_section {
+        padding: 15px;
+        width: 50%;
+        .right_para {
+            font-size: 18px;
+            line-height: 22px;
+            color: #737373;
+            font-weight: 400;
+            font-family: "Poppins";
+            margin-bottom: 50px;
+        }
+        .right_section1{
+            .section1_title {
+                font-size: 30px;
+                letter-spacing: -1px;
+                color: #ffffff;
+                font-weight: 700;
+                margin-bottom: 10px;
+            }
+            .section1_content {
+                font-size: 18px;
+                line-height: 22px;
+                color: #737373;
+                font-weight: 400;
+                font-family: "Poppins";
+                margin-bottom: 50px;
+            }
+        }
+    }
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 1050px) {
+    .main {
+        max-height: 100%;
+    }
+}

@@ -1,0 +1,155 @@
+.main {
+    min-height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: normal;
+    justify-content: center;
+    background-color: #111111;
+}
+.main_content {
+    width: 1200px;
+    display: block;
+}
+.sectionArrow_area {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.section_title {
+    display: block;
+    .first_title {
+        font-size: 43px;
+        letter-spacing: -2px;
+        color: #f9c529;
+        font-weight: 700;
+        text-align: center;
+    }
+    .second_title {
+        font-size: 60px;
+        letter-spacing: -3px;
+        color: #ffffff;
+        font-weight: 700;
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+}
+
+.third_title {
+    font-size: 18px;
+    line-height: 27px;
+    color: #737373;
+    font-weight: 400;
+    font-family: "Poppins";
+    text-align: center;
+    margin-top: 30px;
+}
+
+.section_content {
+    display: block;
+    .background {
+        margin-top: 100px;
+    }
+    .content {
+        margin-top: -300px;
+        .value_data {
+            display: flex;
+            width: 100%;
+            justify-content: space-evenly;
+            margin-bottom: 100px;
+            .value_subtitle {
+                font-size: 70px;
+                letter-spacing: -3px;
+                color: #e2e2e2;
+                font-weight: 900;
+                text-align: center;
+            }
+            .value_content {
+                font-size: 28px;
+                letter-spacing: -1px;
+                color: #ffffff;
+                font-weight: 700;
+                text-align: center;
+            }
+        }
+        .value_title {
+            font-size: 70px;
+            letter-spacing: -3px;
+            color: #e2e2e2;
+            font-weight: 900;
+            text-align: center;
+        }
+
+        .img_area {
+            display: flex;
+            justify-content: center;
+        }
+    }
+    
+
+}
+
+.button_group {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 50px;
+    .start_btn {
+        width: 235px;
+        height: 59px;
+        border-radius: 5px;
+        background-color: #ffffff;
+        border: 1px solid #707070;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        font-size: 10px;
+        letter-spacing: 2px;
+        line-height: 10px;
+        color: #111111;
+        font-weight: 700;
+        margin: 0 10px;
+        cursor: pointer;
+    }
+    .consult_btn {
+        width: 235px;
+        height: 59px;
+        border-radius: 5px;
+        background-color: #111111;
+        border: 1px solid #333333;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        font-size: 10px;
+        letter-spacing: 2px;
+        line-height: 10px;
+        color: #ffffff;
+        font-weight: 700;
+        margin: 0 10px;
+        cursor: pointer;
+    }
+}
+
+.reason_btn {
+    width: 328px;
+    height: 48px;
+    border-radius: 5px;
+    border: 2px solid #333333;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 10px;
+    letter-spacing: 2px;
+    line-height: 10px;
+    color: #ffffff;
+    font-weight: 700;
+    cursor: pointer;
+    margin: 0 auto;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1050px) {
+    .main {
+        max-height: 100%;
+    }
+}

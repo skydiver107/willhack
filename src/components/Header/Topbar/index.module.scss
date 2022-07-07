@@ -1,0 +1,75 @@
+.navbar {
+    height: 40px;
+    background-color: #222222;
+    border: 1px solid #333333;      
+    padding-left: 25px;
+    padding-right: 25px;
+    width: 100%;
+    display: flex;
+    max-width: 100%;
+    // position: sticky;
+    // top: 0px;
+    z-index: 1000;
+}
+
+.navlink_area {
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+
+}
+
+.navbarLink {
+    font-size: 10px;
+    cursor: pointer;
+    margin-right: 30px;
+    font-size: 10px;
+    letter-spacing: 2px;
+    line-height: 10px;
+    color: #e6e6e6;
+    font-weight: 700;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbarLink:hover {
+    color: #c6fcda;
+}
+
+@media only screen and (max-width: 1024px) {
+    .navbar {
+        // display: none;
+        // overflow: scroll;
+        height: 50px;
+        border: none;
+    }
+    .navbarLink {
+        font-size: 10px;
+        color: #FFFFFF;
+        // font-family: "HesDeadJim";
+        // display: none;
+        margin-right: 30px;
+    }
+    .navlink_area {
+        text-align: left;
+        display: flex;
+        color:#ffe644;
+    }
+
+    .navMenu{
+        display: grid;
+        position: absolute;
+        height: 150px;
+        top: 48px;
+        left: 0px;
+        background-color: #FF4780;
+        align-items: center;
+        padding-left: 20px;
+        z-index: 999;
+    }
+
+}

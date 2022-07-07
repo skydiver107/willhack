@@ -1,0 +1,99 @@
+.main {
+    min-height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: normal;
+    justify-content: center;
+    background-color: #111111;
+    padding-top: 100px;
+}
+.main_content {
+    width: 1158px;
+    display: block;
+}
+.main_title {
+    font-size: 75px;
+    letter-spacing: 0px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Raleway";
+    text-align: center;
+    margin-top: 50px;
+}
+
+
+.button_group {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 50px;
+    .start_btn {
+        width: 235px;
+        height: 59px;
+        border-radius: 5px;
+        background-color: #ffffff;
+        border: 1px solid #707070;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        font-size: 10px;
+        letter-spacing: 2px;
+        line-height: 10px;
+        color: #111111;
+        font-weight: 700;
+        margin: 0 10px;
+        cursor: pointer;
+    }
+    .consult_btn {
+        width: 235px;
+        height: 59px;
+        border-radius: 5px;
+        background-color: #111111;
+        border: 1px solid #333333;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        font-size: 10px;
+        letter-spacing: 2px;
+        line-height: 10px;
+        color: #ffffff;
+        font-weight: 700;
+        margin: 0 10px;
+        cursor: pointer;
+    }
+}
+
+
+.bottom_para {
+    font-size: 18px;
+    line-height: 27px;
+    color: #e6e6e6;
+    font-weight: 400;
+    font-family: "Poppins";
+    text-align: center;
+    width: 100%;
+    margin-top: 50px;
+}
+.explore_btn {
+    width: 328px;
+    height: 48px;
+    border-radius: 5px;
+    border: 2px solid #333333;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 10px;
+    letter-spacing: 2px;
+    line-height: 10px;
+    color: #ffffff;
+    font-weight: 700;
+    cursor: pointer;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1050px) {
+    .main {
+        max-height: 100%;
+    }
+}

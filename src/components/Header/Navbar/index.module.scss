@@ -1,0 +1,87 @@
+.navbar {
+    height: 80px;
+    background-color: #111111;
+    border: none;
+    padding-left: 25px;
+    padding-right: 25px;
+    width: 100%;
+    display: flex;
+    max-width: 100%;
+    // position: sticky;
+    // top: 0px;
+    z-index: 1000;
+}
+
+.logo_area {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    .logo_content {
+        font-size: 24px;
+        line-height: 25px;
+        color: #ededed;
+        font-weight: 700;
+        margin-left: 10px;
+    }
+}
+
+.navlink_area {
+    display: block;
+    width: 100%;
+    text-align: right;
+    margin-top: auto;
+    margin-bottom: auto;
+
+}
+
+.navbarLink {
+    font-size: 10px;
+    cursor: pointer;
+    margin-right: 30px;
+    font-size: 10px;
+    letter-spacing: 2px;
+    line-height: 10px;
+    color: #e6e6e6;
+    font-weight: 700;
+    font-family: "Raleway";
+    text-align: center;
+}
+
+.navbarLink:hover {
+    color: #c6fcda;
+}
+
+@media only screen and (max-width: 1024px) {
+    .navbar {
+        // display: none;
+        // overflow: scroll;
+        height: 50px;
+        border: none;
+    }
+    .navbarLink {
+        font-size: 10px;
+        color: #FFFFFF;
+        // font-family: "HesDeadJim";
+        // display: none;
+        margin-right: 30px;
+    }
+    .navlink_area {
+        text-align: left;
+        display: flex;
+        color:#ffe644;
+    }
+
+    .navMenu{
+        display: grid;
+        position: absolute;
+        height: 150px;
+        top: 48px;
+        left: 0px;
+        background-color: #FF4780;
+        align-items: center;
+        padding-left: 20px;
+        z-index: 999;
+    }
+
+}
