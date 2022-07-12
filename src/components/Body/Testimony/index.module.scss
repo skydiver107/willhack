@@ -36,7 +36,46 @@
 }
 
 .section_content {
-    display: block;
+    display: flex;
+    .section_data {
+        width: 100%;
+        display: flex;
+        .testimony {
+            width: 33.3%;
+            padding: 30px;
+            margin: 10px;
+            border: 1px solid #737373;
+            border-radius: 5px;
+            .testimony_header {
+                font-size: 50px;
+                color: #FFFFFF;
+                letter-spacing: -5px;
+            }
+            .testimony_content {
+                font-size: 15px;
+                line-height: 15px;
+                color: #737373;
+                font-weight: 500;
+                font-family: "Poppins";
+                margin-top: -20px;
+                margin-bottom: 30px;
+            }
+
+        }
+        .avatarImg {
+            width: 50px;
+        }
+        .user_name {
+            font-size: 15px;
+            color: #FFFFFF;
+            font-weight: 500;
+        }
+        .user_email {
+            font-size: 13px;
+            color: #737373;
+            font-weight: 500;
+        }
+    }
 
 
 }

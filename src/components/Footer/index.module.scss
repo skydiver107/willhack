@@ -1,63 +1,107 @@
-.footer{
-    display: block;
-    background-color: #1e1825;//#FFE644;
-    text-align: center;
-    padding-top: 5px;
-    padding-bottom: 10px;
-    position: absolute;
-    width: 100%;
-    bottom: 0px;
-    z-index: 99;
-}
-
-.footer>img {
-    max-width: 100px;
-    max-height: 76px;
-}
-
-.footer_social_net{
+.main {
+    min-height: 100%;
     display: flex;
+    flex-wrap: wrap;
+    align-content: normal;
     justify-content: center;
-    margin-top: 5px;
-    margin-bottom: 5px;
+    background-color: #111111;
+}
+.main_content {
+    width: 100%;
+    display: block;
 }
 
-.footer_twitter, .footer_discord {
-    width: 40px;
-    height: 40px;
-    background-size: 40px 40px;
-    margin-left: 10px;
-    margin-right: 10px;
-    opacity: 0.2;
-    // border-radius: 21px;
-    //background-color: #3c323e;
-    //margin-right: 19px;
-    //margin-left: 19px;
-    &:hover{
-        opacity: 0.6;
-        cursor: pointer;
+.section_content {
+    display: block;
+}
+
+.bottom_content {
+    margin-top: 270px;
+    padding: 80px;
+    left: 0px;
+    width: 100%;
+    background-color: #222222;
+    border: 2px solid #333333;
+    .bottom_header {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 30px;
+        font-size: 14px;
+        letter-spacing: 2px;
+        line-height: 14px;
+        color: #FFFFFF;
+        font-weight: 400;
+        font-family: "Poppins";
+        text-align: center;
+    }
+    .bottom_area {
+        display: flex;
+        justify-content: center;
+        
     }
 }
 
-.footer_twitter {
-    background-image: url('../../assets/images/twitter.png');
+.footer_area {
+    display: flex;
+    justify-content: center;
+    background-color: #222222;
+    border: 2px solid #333333;
+    .footer_wrapper{
+        width: 1200px;
+        display: flex;    
+        justify-content: space-between;
+        padding: 100px 0;
+        .footer_content {
+            .footer_list {
+                display: block;
+                .list_header {
+                    font-size: 20px;
+                    letter-spacing: 1px;
+                    line-height: 50px;
+                    color: #e5e5e5;
+                    font-weight: 700;
+                    font-family: "Poppins";
+                    margin-bottom: 20px;
+                }     
+                .list_btn {
+                    font-size: 16px;
+                    letter-spacing: 1px;
+                    line-height: 50px;
+                    color: #e5e5e5;
+                    font-weight: 700;
+                    font-family: "Poppins";
+                    cursor: pointer;
+                    margin-bottom: 20px;
+                }       
+            }
+        }
+        
+    }
+    
+}
+.footer_bottom {
+    display: flex;
+    justify-content: center;
+    background-color: #222222;
+    .bottom_wrapper {
+        width: 1200px;
+        padding: 50px 0;
+        display: flex;
+        justify-content: space-between;
+        .bottom_para {
+            font-size: 10px;
+            letter-spacing: 2px;
+            line-height: 10px;
+            color: #ffffff;
+            font-weight: 700;
+            font-family: "Poppins";
+            margin-top: 20px;
+        }
+    }
 }
 
-.footer_discord {
-    background-image: url('../../assets/images/discord.png');
-}
-
-.footer_copyright {
-    font-size: 16px;
-    line-height: 20px;
-    color: #575757;
-    font-family: "Bahnschrift";
-    // margin-top: 20px;
-}
-
-@media only screen and (max-width: 1099px) {
-    .footer>img {
-        max-width: 90px;
-        max-height: 90px;
-    } 
+@media only screen and (min-width: 768px) and (max-width: 1050px) {
+    .main {
+        max-height: 100%;
+    }
 }

@@ -9,6 +9,7 @@ import Hack from "../Body/Hack";
 import Journey from "../Body/Journey";
 import BestPractice from "../Body/BestPractice";
 import Infinity from "../Body/Infinity";
+import MoreInfo from "../Body/MoreInfo";
 import Testimony from "../Body/Testimony";
 import Topbar from "../Header/Topbar";
 
@@ -30,7 +31,8 @@ const MainContent = () => {
           <BestPractice />
           <Infinity />
           <Testimony />
-
+          <MoreInfo />
+          <Footer />
         </div>    
     )
 }

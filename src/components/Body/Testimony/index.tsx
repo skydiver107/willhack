@@ -3,8 +3,7 @@ import styles from './index.module.scss';
 import { useNavigate } from "react-router-dom";
 import { useLocation } from "react-router-dom";
 import { useResize } from './../../../utils/Helper';
-import CancelIcon from '@mui/icons-material/Cancel';
-import CheckCircleIcon from '@mui/icons-material/CheckCircle';
+import avatar from './../../../assets/images/avatar.png'
 
 const Testimony = () => {
     const navigate = useNavigate();
@@ -22,13 +21,37 @@ const Testimony = () => {
                 <div className={styles.section_content}>
                     <div className={styles.section_data}>
                         <div className={styles.testimony}>
-                            <div>‛‛</div>
-                            <div>A WILLHACK é incrível. Conheço talentos de todo o país e aprendo muito. Tenho o privilégio de realizar meus projetos com rapidez e qualidade vejo a escalabilidade de minha receita.</div>
-                            <div>
-                                <div></div>
-                                <div>
-                                    <div> WIll Rulli </div>
-                                    <div> willrulli@icloud.com </div>
+                            <div className={styles.testimony_header}>‛‛</div>
+                            <div className={styles.testimony_content}>A WILLHACK é incrível. Conheço talentos de todo o país e aprendo muito. Tenho o privilégio de realizar meus projetos com rapidez e qualidade vejo a escalabilidade de minha receita.</div>
+                            <div style={{display: 'flex'}}>
+                                <div><img src={avatar} className={styles.avatarImg}/></div>
+                                <div style={{margin: 'auto 20px'}}>
+                                    <div className={styles.user_name}> Will Rulli </div>
+                                    <div className={styles.user_email}> willrulli@icloud.com </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className={styles.testimony}>
+                            <div className={styles.testimony_header}>‛‛</div>
+                            <div className={styles.testimony_content}>A WILLHACK é incrível. Conheço talentos de todo o país e aprendo muito. Tenho o privilégio de realizar meus projetos com rapidez e qualidade vejo a escalabilidade de minha receita.</div>
+                            <div style={{display: 'flex'}}>
+                                <div><img src={avatar} className={styles.avatarImg}/></div>
+                                <div style={{margin: 'auto 20px'}}>
+                                    <div className={styles.user_name}> Will Rulli </div>
+                                    <div className={styles.user_email}> willrulli@icloud.com </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className={styles.testimony}>
+                            <div className={styles.testimony_header}>‛‛</div>
+                            <div className={styles.testimony_content}>A WILLHACK é incrível. Conheço talentos de todo o país e aprendo muito. Tenho o privilégio de realizar meus projetos com rapidez e qualidade vejo a escalabilidade de minha receita.</div>
+                            <div style={{display: 'flex'}}>
+                                <div><img src={avatar} className={styles.avatarImg}/></div>
+                                <div style={{margin: 'auto 20px'}}>
+                                    <div className={styles.user_name}> Will Rulli </div>
+                                    <div className={styles.user_email}> willrulli@icloud.com </div>
                                 </div>
                             </div>
                         </div>

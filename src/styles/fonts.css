@@ -38,8 +38,8 @@
 	src: url('./../assets/fonts/Quicksand-Bold.ttf') format('truetype');
 } */
 
-/* @font-face {
+@font-face {
 	font-family: 'Poppins';
 	font-style: normal;
-	src: url('/public/assets/font/Poppins/Poppins-Regular.ttf') format('truetype');
-} */
+	src: url('./../assets/fonts/Poppins/Poppins-Regular.ttf') format('truetype');
+}

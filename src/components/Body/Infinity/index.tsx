@@ -21,60 +21,64 @@ const Infinity = () => {
 
                 <div className={styles.section_content}>
                     <table style={{width: '100%'}}>
-                        <tr>
-                            <th>CRITÉRIO</th>
-                            <th style={{fontSize: '35px'}}>will.hack</th>
-                            <th>CONTRATAÇÃO</th>
-                            <th>CONSULTORIA</th>
-                        </tr>
-                        <tr>
-                            <td>Tempo para iniciar</td>
-                            <td style={{backgroundColor: '#222222'}}>1 dia</td>
-                            <td>+2 meses</td>
-                            <td>+2 meses</td>
-                        </tr>
-                        <tr>
-                            <td>Custo de Contratação</td>
-                            <td style={{backgroundColor: '#222222'}}>R$ 0.00</td>
-                            <td>+R$ 50K</td>
-                            <td>R$ 0.00</td>
-                        </tr>
-                        <tr>
-                            <td>Garantia de Qualidade</td>
-                            <td style={{backgroundColor: '#222222'}}><CheckCircleIcon sx={{color: '#1fcc51'}}/></td>
-                            <td><CancelIcon sx={{color: '#b22f29'}}/></td>
-                            <td><CancelIcon sx={{color: '#b22f29'}}/></td>
-                        </tr>
-                        <tr>
-                            <td>Flexibilidade</td>
-                            <td style={{backgroundColor: '#222222'}}><CheckCircleIcon sx={{color: '#1fcc51'}}/></td>
-                            <td><CancelIcon sx={{color: '#b22f29'}}/></td>
-                            <td><CancelIcon sx={{color: '#b22f29'}}/></td>
-                        </tr>
-                        <tr>
-                            <td>Curadoria de Talentos</td>
-                            <td style={{backgroundColor: '#222222'}}><CheckCircleIcon sx={{color: '#1fcc51'}}/></td>
-                            <td><CancelIcon sx={{color: '#b22f29'}}/></td>
-                            <td><CancelIcon sx={{color: '#b22f29'}}/></td>
-                        </tr>
-                        <tr>
-                            <td>Growth Hack</td>
-                            <td style={{backgroundColor: '#222222'}}><CheckCircleIcon sx={{color: '#1fcc51'}}/></td>
-                            <td><CancelIcon sx={{color: '#b22f29'}}/></td>
-                            <td><CancelIcon sx={{color: '#b22f29'}}/></td>
-                        </tr>
-                        <tr>
-                            <td>Marketing Digital</td>
-                            <td style={{backgroundColor: '#222222'}}><CheckCircleIcon sx={{color: '#1fcc51'}}/></td>
-                            <td><CancelIcon sx={{color: '#b22f29'}}/></td>
-                            <td><CancelIcon sx={{color: '#b22f29'}}/></td>
-                        </tr>
-                        <tr>
-                            <td>Consultoria Ativa</td>
-                            <td style={{backgroundColor: '#222222'}}><CheckCircleIcon sx={{color: '#1fcc51'}}/></td>
-                            <td><CancelIcon sx={{color: '#b22f29'}}/></td>
-                            <td><CancelIcon sx={{color: '#b22f29'}}/></td>
-                        </tr>
+                        <thead>
+                            <tr>
+                                <th>CRITÉRIO</th>
+                                <th style={{fontSize: '35px'}}>will.hack</th>
+                                <th>CONTRATAÇÃO</th>
+                                <th>CONSULTORIA</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Tempo para iniciar</td>
+                                <td style={{backgroundColor: '#222222'}}>1 dia</td>
+                                <td>+2 meses</td>
+                                <td>+2 meses</td>
+                            </tr>
+                            <tr>
+                                <td>Custo de Contratação</td>
+                                <td style={{backgroundColor: '#222222'}}>R$ 0.00</td>
+                                <td>+R$ 50K</td>
+                                <td>R$ 0.00</td>
+                            </tr>
+                            <tr>
+                                <td>Garantia de Qualidade</td>
+                                <td style={{backgroundColor: '#222222'}}><CheckCircleIcon sx={{color: '#1fcc51'}}/></td>
+                                <td><CancelIcon sx={{color: '#b22f29'}}/></td>
+                                <td><CancelIcon sx={{color: '#b22f29'}}/></td>
+                            </tr>
+                            <tr>
+                                <td>Flexibilidade</td>
+                                <td style={{backgroundColor: '#222222'}}><CheckCircleIcon sx={{color: '#1fcc51'}}/></td>
+                                <td><CancelIcon sx={{color: '#b22f29'}}/></td>
+                                <td><CancelIcon sx={{color: '#b22f29'}}/></td>
+                            </tr>
+                            <tr>
+                                <td>Curadoria de Talentos</td>
+                                <td style={{backgroundColor: '#222222'}}><CheckCircleIcon sx={{color: '#1fcc51'}}/></td>
+                                <td><CancelIcon sx={{color: '#b22f29'}}/></td>
+                                <td><CancelIcon sx={{color: '#b22f29'}}/></td>
+                            </tr>
+                            <tr>
+                                <td>Growth Hack</td>
+                                <td style={{backgroundColor: '#222222'}}><CheckCircleIcon sx={{color: '#1fcc51'}}/></td>
+                                <td><CancelIcon sx={{color: '#b22f29'}}/></td>
+                                <td><CancelIcon sx={{color: '#b22f29'}}/></td>
+                            </tr>
+                            <tr>
+                                <td>Marketing Digital</td>
+                                <td style={{backgroundColor: '#222222'}}><CheckCircleIcon sx={{color: '#1fcc51'}}/></td>
+                                <td><CancelIcon sx={{color: '#b22f29'}}/></td>
+                                <td><CancelIcon sx={{color: '#b22f29'}}/></td>
+                            </tr>
+                            <tr>
+                                <td>Consultoria Ativa</td>
+                                <td style={{backgroundColor: '#222222'}}><CheckCircleIcon sx={{color: '#1fcc51'}}/></td>
+                                <td><CancelIcon sx={{color: '#b22f29'}}/></td>
+                                <td><CancelIcon sx={{color: '#b22f29'}}/></td>
+                            </tr>
+                        </tbody>
                     </table>
                 </div>
             </div>           
